@@ -41,6 +41,7 @@
 * {
   box-sizing: border-box;
 }
+
 ul {
   list-style: none;
   margin: 0;
@@ -55,20 +56,26 @@ ul li {
 .grid {
   display: flex;
   flex-wrap: wrap;
+  background-color: black;
   width: 100%;
+  padding: 1%;
 }
 .grid > li {
   min-height: 50px;
   background: #30b01f;
   border: 1px solid #138220;
   text-align: center;
+  padding: 10px 0;
+  margin: 1%;
+  border-radius: 5px;
+  color: azure;
 }
 .grid-col-4 > li {
-  width: 25%;
+  width: 23%;
 }
 .grid-col-6 > li {
-  width: 16.6%;
+  width: 14.5%;
 }
 .grid-col-2 > li {
-  width: 50%;
+  width: 48%;
 }
