@@ -79,3 +79,35 @@ ul li {
 .grid-col-2 > li {
   width: 48%;
 }
+/* フォーム */
+.form {
+  background-color: rgb(33, 33, 33);
+}
+.input {
+  width: 75%;
+}
+.signIn {
+  margin-left: 15px;
+  color: #ffffff;
+}
+.ft {
+  color: #ffffff;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.button {
+  margin-left: 15px;
+  margin-top: 15px;
+  border: 2px solid #386af6;
+  border-radius: 5px;
+  background-color: #386af6;
+  color: #ffffff;
+  width: 75%;
+}
+.don {
+  color: #ccc;
+  margin-left: 15px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
